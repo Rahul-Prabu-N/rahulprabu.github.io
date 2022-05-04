@@ -1,0 +1,243 @@
+{
+  "uid" : "29a08d8e256427be",
+  "name" : "Verify Success Message - Student record created",
+  "fullName" : "Student Data Management.Verify Success Message - Student record created",
+  "historyId" : "9944071613ebda60cb121f8247141f2",
+  "time" : {
+    "start" : 1651652049022,
+    "stop" : 1651652065524,
+    "duration" : 16502
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //button[text()=\"Submit] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()=\"Submit]' is not a valid XPath expression.\n                  (Session info: chrome=100.0.4896.75)",
+  "statusTrace" : "invalid selector: invalid selector: Unable to locate an element with the xpath expression //button[text()=\"Submit] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()=\"Submit]' is not a valid XPath expression.\n                  (Session info: chrome=100.0.4896.75)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at LoginPage.login (/Users/rahulprabu.nagasamythoughtworks.com/Documents/workspace/Test_Automation_DM/Test_Automation_DM/web_automation/Pages/login.page.js:31:9)\n                    at Context.<anonymous> (/Users/rahulprabu.nagasamythoughtworks.com/Documents/workspace/Test_Automation_DM/Test_Automation_DM/web_automation/test/specs/student.e2e.js:9:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //button[text()=\"Submit] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()=\"Submit]' is not a valid XPath expression.\n                  (Session info: chrome=100.0.4896.75)",
+    "statusTrace" : "invalid selector: invalid selector: Unable to locate an element with the xpath expression //button[text()=\"Submit] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()=\"Submit]' is not a valid XPath expression.\n                  (Session info: chrome=100.0.4896.75)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at LoginPage.login (/Users/rahulprabu.nagasamythoughtworks.com/Documents/workspace/Test_Automation_DM/Test_Automation_DM/web_automation/Pages/login.page.js:31:9)\n                    at Context.<anonymous> (/Users/rahulprabu.nagasamythoughtworks.com/Documents/workspace/Test_Automation_DM/Test_Automation_DM/web_automation/test/specs/student.e2e.js:9:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1651652049024,
+        "stop" : 1651652064599,
+        "duration" : 15575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab0a79537d08fc29",
+        "name" : "Request",
+        "source" : "ab0a79537d08fc29.json",
+        "type" : "application/json",
+        "size" : 79
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651652064600,
+        "stop" : 1651652064712,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf430d1e6b88c862",
+        "name" : "Request",
+        "source" : "bf430d1e6b88c862.json",
+        "type" : "application/json",
+        "size" : 83
+      }, {
+        "uid" : "9583c52f9e17de6",
+        "name" : "Response",
+        "source" : "9583c52f9e17de6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/38936040-5bfd-40c6-8b81-9b77b4a98214/clear",
+      "time" : {
+        "start" : 1651652064718,
+        "stop" : 1651652064838,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/38936040-5bfd-40c6-8b81-9b77b4a98214/value",
+      "time" : {
+        "start" : 1651652064839,
+        "stop" : 1651652064973,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5d43196d8cd1849e",
+        "name" : "Request",
+        "source" : "5d43196d8cd1849e.json",
+        "type" : "application/json",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651652064973,
+        "stop" : 1651652065062,
+        "duration" : 89
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "239102ff750bccea",
+        "name" : "Request",
+        "source" : "239102ff750bccea.json",
+        "type" : "application/json",
+        "size" : 85
+      }, {
+        "uid" : "1fda27a9f626fed9",
+        "name" : "Response",
+        "source" : "1fda27a9f626fed9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/be5e2faa-e737-4fa6-82d6-7809a273041b/clear",
+      "time" : {
+        "start" : 1651652065066,
+        "stop" : 1651652065173,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/be5e2faa-e737-4fa6-82d6-7809a273041b/value",
+      "time" : {
+        "start" : 1651652065174,
+        "stop" : 1651652065403,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91b7efc87a8358e7",
+        "name" : "Request",
+        "source" : "91b7efc87a8358e7.json",
+        "type" : "application/json",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1651652065403,
+        "stop" : 1651652065524,
+        "duration" : 121
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid selector: invalid selector: Unable to locate an element with the xpath expression //button[text()=\"Submit] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()=\"Submit]' is not a valid XPath expression.\n                  (Session info: chrome=100.0.4896.75)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at LoginPage.login (/Users/rahulprabu.nagasamythoughtworks.com/Documents/workspace/Test_Automation_DM/Test_Automation_DM/web_automation/Pages/login.page.js:31:9)\n                    at Context.<anonymous> (/Users/rahulprabu.nagasamythoughtworks.com/Documents/workspace/Test_Automation_DM/Test_Automation_DM/web_automation/test/specs/student.e2e.js:9:5)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80eff309a4af96eb",
+        "name" : "Request",
+        "source" : "80eff309a4af96eb.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Student Data Management"
+  }, {
+    "name" : "testClass",
+    "value" : "Student Data Management"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Success Message - Student record created"
+  }, {
+    "name" : "package",
+    "value" : "Student Data Management"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-100.0.4896.75"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29a08d8e256427be.json",
+  "parameterValues" : [ "chrome-100.0.4896.75" ]
+}

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//label[text()='Student record created']\"}\n  (Session info: chrome=100.0.4896.75)",
+  "stacktrace": "#0 0x555df6431ad3 <unknown>\n#1 0x555df6191568 <unknown>\n#2 0x555df61c7c46 <unknown>\n#3 0x555df61c7e01 <unknown>\n#4 0x555df61faa64 <unknown>\n#5 0x555df61e561d <unknown>\n#6 0x555df61f8824 <unknown>\n#7 0x555df61e54e3 <unknown>\n#8 0x555df61bad1a <unknown>\n#9 0x555df61bbe75 <unknown>\n#10 0x555df645fefd <unknown>\n#11 0x555df647919b <unknown>\n#12 0x555df6461c65 <unknown>\n#13 0x555df6479ec8 <unknown>\n#14 0x555df6455360 <unknown>\n#15 0x555df6495a68 <unknown>\n#16 0x555df6495be8 <unknown>\n#17 0x555df64af7fd <unknown>\n#18 0x7f9dd969f609 <unknown>\n"
+}

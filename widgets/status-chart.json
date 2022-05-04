@@ -1,0 +1,71 @@
+[ {
+  "uid" : "bed2abed4db4633b",
+  "name" : "Verify Error Message - Missing/Invalid fields - Please provide valid information - Age more than than 15",
+  "time" : {
+    "start" : 1651673493389,
+    "stop" : 1651673514364,
+    "duration" : 20975
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e8b72c511c56613",
+  "name" : "Verify Success Message - After having the VIP category as NO",
+  "time" : {
+    "start" : 1651673514365,
+    "stop" : 1651673521221,
+    "duration" : 6856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1a64cfa887d3cc3",
+  "name" : "Verify Success Message after giving non Mandatory fields",
+  "time" : {
+    "start" : 1651673532494,
+    "stop" : 1651673543337,
+    "duration" : 10843
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29915774d8d8550d",
+  "name" : "Verify Last name as Required Feild",
+  "time" : {
+    "start" : 1651673526489,
+    "stop" : 1651673532493,
+    "duration" : 6004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94388fb57031753",
+  "name" : "Verify Success Message - Student record created",
+  "time" : {
+    "start" : 1651673466764,
+    "stop" : 1651673485946,
+    "duration" : 19182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a030bbd7f19e4862",
+  "name" : "Verify First name as Required Feild",
+  "time" : {
+    "start" : 1651673521221,
+    "stop" : 1651673526488,
+    "duration" : 5267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e2ba8b535fde980",
+  "name" : "Verify Error Message - Missing/Invalid fields - Please provide valid information - Age less than 2",
+  "time" : {
+    "start" : 1651673485947,
+    "stop" : 1651673493388,
+    "duration" : 7441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

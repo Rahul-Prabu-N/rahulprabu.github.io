@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[text()='Student']\"}\n  (Session info: chrome=100.0.4896.75)",
+  "stacktrace": "#0 0x55bb7e706ad3 <unknown>\n#1 0x55bb7e466568 <unknown>\n#2 0x55bb7e49cc46 <unknown>\n#3 0x55bb7e49ce01 <unknown>\n#4 0x55bb7e4cfa64 <unknown>\n#5 0x55bb7e4ba61d <unknown>\n#6 0x55bb7e4cd824 <unknown>\n#7 0x55bb7e4ba4e3 <unknown>\n#8 0x55bb7e48fd1a <unknown>\n#9 0x55bb7e490e75 <unknown>\n#10 0x55bb7e734efd <unknown>\n#11 0x55bb7e74e19b <unknown>\n#12 0x55bb7e736c65 <unknown>\n#13 0x55bb7e74eec8 <unknown>\n#14 0x55bb7e72a360 <unknown>\n#15 0x55bb7e76aa68 <unknown>\n#16 0x55bb7e76abe8 <unknown>\n#17 0x55bb7e7847fd <unknown>\n#18 0x7fcf000b8609 <unknown>\n"
+}
